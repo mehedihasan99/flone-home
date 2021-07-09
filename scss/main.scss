@@ -374,3 +374,55 @@ body{
         margin: 0 auto;
     }
 }
+
+// Subscribe
+.Subscribe-Wrapper {
+    margin: 50px 0 50px 0;
+    h3{
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 36px;
+        width: 400;
+        color: #000;
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+        color: #696969;
+        margin: 25px 0;
+    }
+    .Subscribe-Form{
+        position: relative;
+
+        .email{
+            width: 100%;
+            height: 45px;
+            font-size: 14px;
+            padding: 2px 50px 2px 0;
+            outline: none;
+            border: none;
+            border-bottom: 2px solid #e2e2e2;
+            background: transparent;
+        }
+        .submit{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            display: inline-block;
+
+            button{
+                font-size: 30px;
+                height: 45px;
+                color: #cacaca;
+                border: none;
+                padding: 0;
+                background: transparent;
+            }
+            &:hover button{
+                color: #000;
+            }
+        }
+
+       
+    }
+}
