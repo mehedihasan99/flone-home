@@ -10939,7 +10939,7 @@ body {
 .product-wrap .product-img .product-img-badges {
   position: absolute;
   top: 12px;
-  right: 12px;
+  left: 12px;
 }
 .product-wrap .product-img .product-img-badges span {
   font-size: 13px;
@@ -11145,6 +11145,80 @@ body {
 }
 .Subscribe-Wrapper .Subscribe-Form .submit:hover button {
   color: #000;
+}
+
+.footer-area {
+  margin-top: 50px;
+  padding: 100px 0px;
+  background-color: #f1f1f1;
+  position: relative;
+}
+.footer-area .scroll-top {
+  position: fixed;
+  z-index: 999 !important;
+  right: 20px;
+  bottom: 60px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: none;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  background-color: #a749ff;
+}
+.footer-area .scroll-top i {
+  font-size: 22px;
+  line-height: 50px;
+}
+.footer-area .copyRight {
+  margin-bottom: 30px;
+}
+.footer-area .copyRight .footer-logo {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+.footer-area .copyRight a {
+  color: #313131;
+  text-decoration: none;
+}
+.footer-area .copyRight p {
+  color: #313131;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+}
+.footer-area .footer-widget {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.footer-area .footer-widget h3, .footer-area .footer-widget .h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  margin-top: 0 0 16px;
+  text-transform: uppercase;
+}
+.footer-area .footer-widget ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-area .footer-widget ul li {
+  margin: 0 0 11px;
+}
+.footer-area .footer-widget ul li a {
+  letter-spacing: 0.3px;
+  color: #5d5d5d;
+  text-decoration: none;
+}
+.footer-area .footer-widget .subscribe-style p {
+  margin: 0 0 20px;
+  color: #7a7a7a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
